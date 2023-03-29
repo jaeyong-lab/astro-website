@@ -1,0 +1,55 @@
+---
+// The code fence area
+---
+<style>
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .logo svg {
+    display: block;
+    max-width: 9.3rem;
+    height: auto;
+  }
+
+  nav {
+    display: flex;
+    gap: 1rem;    
+  }
+
+  nav a {
+    color: var(--color-text);
+    padding: 2.325rem 1.0333rem;
+    text-decoration: none;
+  }
+
+  .logo {
+    text-decoration: none;
+  }
+
+  .logo span {
+    font-size: 2rem;
+    font-weight: 900;
+    font-stretch: ultra-expanded;
+    background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+</style>
+<header>
+  <div class="container">
+    <a class="logo" aria-label="Home" href="/"><span>Jaeyong</span></a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="#casestudies-section">Case Studies</a>
+      <a href="#blog-section">Blog</a>
+      <a href="#faq-section">FAQ</a>      
+      <a href="/about">About</a>      
+    </nav>
+  </div>
+</header>
