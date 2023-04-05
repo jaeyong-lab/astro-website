@@ -1,9 +1,10 @@
 ## Astro Website
 
-: [Astro JS Framework: A Practical Guide To Building Faster Websites](https://bejamas.io/blog/practical-guide-to-astro-js-framework/#conclusion)
+- https://jaeyong-lab.github.io/astro-website/
 
 
-## 🧞 Commands
+
+### 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -17,10 +18,15 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro --help` | Get help using the Astro CLI                     |
 
 
-## Deploy
+### Deploy
 
 [Deploy your Astro Site to GitHub Pages](https://docs.astro.build/en/guides/deploy/github/)
 
-## 👀 Want to learn more?
+
+### Reference
+[Astro JS Framework: A Practical Guide To Building Faster Websites](https://bejamas.io/blog/practical-guide-to-astro-js-framework/#conclusion)
+
+
+### 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
