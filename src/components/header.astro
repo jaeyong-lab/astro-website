@@ -1,5 +1,7 @@
 ---
 // The code fence area
+
+const baseUrl = import.meta.env.BASE_URL;
 ---
 <style>
   .container {
@@ -43,13 +45,13 @@
 </style>
 <header>
   <div class="container">
-    <a class="logo" aria-label="Home" href="/"><span>Jaeyong</span></a>
+    <a class="logo" aria-label="Home" href={`${baseUrl}`}><span>Jaeyong</span></a>
     <nav>
-      <a href="/">Home</a>
+      <a href={`${baseUrl}`}>Home</a>
       <a href="#casestudies-section">Case Studies</a>
       <a href="#blog-section">Blog</a>
       <a href="#faq-section">FAQ</a>      
-      <a href="/about">About</a>      
+      <a href={`${baseUrl}about`}>About</a>      
     </nav>
   </div>
 </header>
